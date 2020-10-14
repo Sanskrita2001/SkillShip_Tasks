@@ -1,0 +1,125 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+body {
+  background: 100% 100%;
+  background-color: #eee;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+li.nav-item {
+  margin: 0 50px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+.form-group .btn {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  margin: 15px 43%;
+  border: 0;
+}
+#features .desc {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  padding: 5px;
+}
+
+#features .desc {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+#pricing {
+  margin-top: 60px;
+}
+#pricing .card {
+  box-shadow: 0 0 8px #000;
+}
+#pricing ol {
+  list-style-type: none;
+}
+
+#pricing .btn {
+  max-width: 150px;
+  margin: 0 auto 50px auto;
+  border: 10px;
+  border-color: black;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+footer > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+footer > ul > li > a:hover {
+  color: black;
+  text-decoration: none;
+}
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+@media (max-width: 568px) {
+  .logo {
+    margin: 0 auto;
+  }
+  ul {
+    flex-direction: column;
+  }
+  footer > ul {
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 200px;
+  }
+  li.nav-item {
+    margin: 0 30px;
+  }
+}
